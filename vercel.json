@@ -1,0 +1,13 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "regions": ["bom1"],
+  "functions": {
+    "app/api/correct/route.ts": {
+      "maxDuration": 30,
+      "memory": 1024
+    }
+  }
+}
