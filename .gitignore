@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.npz
+results/*.png
+data/chessboard/*.jpg
+data/chessboard/*.png
+data/straight_line_scenes/*.jpg
+data/straight_line_scenes/*.png
+data/output/
+.env
